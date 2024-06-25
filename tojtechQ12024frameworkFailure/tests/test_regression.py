@@ -27,3 +27,4 @@ class TestEndToEnd(BaseClass):
         self.driver.find_element(By.XPATH, "//span[text()='Place Order']").click()
         print("This is a newly implemented message for git session")
         print("new changes by american time zone guy.")
+
