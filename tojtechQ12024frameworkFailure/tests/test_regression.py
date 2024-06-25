@@ -25,5 +25,4 @@ class TestEndToEnd(BaseClass):
         self.driver.find_element(By.CSS_SELECTOR, "#Field-numberInput").send_keys("4242424242424242")
         self.driver.switch_to.default_content()
         self.driver.find_element(By.XPATH, "//span[text()='Place Order']").click()
-        print("This is a newly implemented message for git session")
-        print("this is second newly implemented message for git session")
+
