@@ -26,3 +26,4 @@ class TestEndToEnd(BaseClass):
         self.driver.switch_to.default_content()
         self.driver.find_element(By.XPATH, "//span[text()='Place Order']").click()
         print("This is a newly implemented message for git session")
+        print("this is second newly implemented message for git session")
